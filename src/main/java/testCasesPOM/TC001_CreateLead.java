@@ -15,7 +15,7 @@ public class TC001_CreateLead extends Annotations {
 		testDescription = "Create a new lead";
 		category = "Smoke";
 		author = "Rohith";
-		moduleName = "Arun"; // edited by arun
+		moduleName = "Arun"; // edited by arun 
 	}
 ss
 	@Test(dataProvider = "getData")
