@@ -29,12 +29,10 @@ public class MyCreateLead extends Annotations {
 	WebElement SourceDD;
 	
 	
-	
 //	public MyVerifyLead CreateLead(String cName,String fName,String lname,String ph) {
 		
-		
 	
-	public MyCreateLead companyname(String cName) {
+		public MyCreateLead companyname(String cName) {
 			type(companyName, cName);
 			return this;
 			

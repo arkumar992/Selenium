@@ -7,11 +7,13 @@
   <test  name="Test">
     <classes>
     <class name="testCasesPOM.TC001_CreateLead"/>
-   <class name="testCasesPOM.TC002_CreateLeadNeg"/> 
-     <!-- <class name="testCasesPOM.TC003_MergeLead"/> -->
+   <!-- <class name="testCasesPOM.TC002_CreateLeadNeg"/> 
+     <class name="testCasesPOM.TC003_MergeLead"/>
     <class name="testCasesPOM.TC004_EditLead"/>  
      <class name="testCasesPOM.TC005_DeleteLead"/>
-     <class name="testCasesPOM.TC006_DuplicateLead"/> 
+     <class name="testCasesPOM.TC006_DuplicateLead"/>  -->
+     
+     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

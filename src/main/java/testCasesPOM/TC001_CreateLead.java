@@ -15,9 +15,9 @@ public class TC001_CreateLead extends Annotations {
 		testDescription = "Create a new lead";
 		category = "Smoke";
 		author = "Rohith";
-		moduleName = "Arun"; // edited by arun 
+		moduleName = "Lead";
 	}
-ss
+
 	@Test(dataProvider = "getData")
 	/* groups="smoke" */
 	public void createLead(String cname, String Fname, String Lname, String PNo,String Value1) {
