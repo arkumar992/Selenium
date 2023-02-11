@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="103196" started-at="2018-08-11T11:30:39Z" finished-at="2018-08-11T11:32:23Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="103196" started-at="2018-08-11T11:30:39Z" finished-at="2018-08-11T11:32:23Z">
+      <class name="testCasesPOM.TC001_CreateLead">
+        <test-method status="PASS" signature="startSuite()[pri:0, instance:testCasesPOM.TC001_CreateLead@a3426]" name="startSuite" is-config="true" duration-ms="437" started-at="2018-08-11T11:30:39Z" finished-at="2018-08-11T11:30:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSuite -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:testCasesPOM.TC001_CreateLead@a3426]" name="setValues" is-config="true" duration-ms="0" started-at="2018-08-11T11:30:39Z" finished-at="2018-08-11T11:30:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="startTest()[pri:0, instance:testCasesPOM.TC001_CreateLead@a3426]" name="startTest" is-config="true" duration-ms="31" started-at="2018-08-11T11:30:39Z" finished-at="2018-08-11T11:30:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCasesPOM.TC001_CreateLead@a3426]" name="login" is-config="true" duration-ms="38239" started-at="2018-08-11T11:30:42Z" finished-at="2018-08-11T11:31:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCasesPOM.TC001_CreateLead@a3426]" name="createLead" duration-ms="17872" started-at="2018-08-11T11:31:20Z" data-provider="getData" finished-at="2018-08-11T11:31:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CPT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rohithkumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[962258666]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[LEAD_EXISTCUST]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:testCasesPOM.TC001_CreateLead@a3426]" name="CloseBrowser" is-config="true" duration-ms="2529" started-at="2018-08-11T11:31:38Z" finished-at="2018-08-11T11:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCasesPOM.TC001_CreateLead@a3426]" name="login" is-config="true" duration-ms="25995" started-at="2018-08-11T11:31:41Z" finished-at="2018-08-11T11:32:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCasesPOM.TC001_CreateLead@a3426]" name="createLead" duration-ms="13469" started-at="2018-08-11T11:32:07Z" data-provider="getData" finished-at="2018-08-11T11:32:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Renault]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Navas]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[962258666]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[LEAD_EXISTCUST]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:testCasesPOM.TC001_CreateLead@a3426]" name="CloseBrowser" is-config="true" duration-ms="2338" started-at="2018-08-11T11:32:20Z" finished-at="2018-08-11T11:32:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="endSuite()[pri:0, instance:testCasesPOM.TC001_CreateLead@a3426]" name="endSuite" is-config="true" duration-ms="1363" started-at="2018-08-11T11:32:23Z" finished-at="2018-08-11T11:32:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSuite -->
+      </class> <!-- testCasesPOM.TC001_CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

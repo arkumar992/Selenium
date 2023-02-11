@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CreateEdit">
+  <test name="Test">
+    <classes>
+      <class name="testCase.DuplicateLead"/>
+      <class name="testCase.EditLead"/>
+      <class name="testCase.CreateLead"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- CreateEdit -->

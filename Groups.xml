@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+<run>
+<include name="smoke"></include>
+<include name="sanity"></include>
+<include name="regression"></include>
+</run>
+</groups>
+  <test name="Test">
+    <classes>
+      <class name="testCase.MergeLead"/>
+      <class name="testCase.DuplicateLead"/>
+      <class name="testCase.EditLead"/>
+      <class name="testCase.CreateLead"/>
+      <class name="testCase.DeleteLead"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
