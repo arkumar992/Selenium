@@ -22,8 +22,8 @@ public class FrameAlert {
 		Thread.sleep(3000);
 		String alertText = myAlert.getText();
 		System.out.println(alertText);
-		myAlert.sendKeys("Rohithkumar");
-		Thread.sleep(3000);
+		myAlert.sendKeys("Arunkumar");
+		Thread.sleep(7000);
 		myAlert.accept();
 		Thread.sleep(3000);
 		WebElement Text = driver.findElementByXPath("//p[@id='demo']");
